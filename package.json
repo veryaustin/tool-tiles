@@ -1,0 +1,25 @@
+{
+  "name": "@veryaustin/tool-tags",
+  "version": "0.0.1",
+  "description": "Collection of React components displaying various development tools/technology logos",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veryaustin/tool-tags.git"
+  },
+  "keywords": [
+    "react",
+    "logos",
+    "tiles",
+    "styled-components"
+  ],
+  "author": "Austin Lauritsen <austin@veryaustin.com> (http://veryaustin.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/veryaustin/tool-tags/issues"
+  },
+  "homepage": "https://github.com/veryaustin/tool-tags#readme"
+}
