@@ -4,6 +4,8 @@
   "description": "Collection of React components displaying various development tools/technology logos",
   "main": "dist/index.js",
   "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,21 @@
   "bugs": {
     "url": "https://github.com/veryaustin/tool-tags/issues"
   },
-  "homepage": "https://github.com/veryaustin/tool-tags#readme"
+  "homepage": "https://github.com/veryaustin/tool-tags#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.3.1",
+    "@storybook/react": "^4.1.13",
+    "babel-plugin-styled-components": "^1.10.0",
+    "styled-components": "^4.1.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
 }
