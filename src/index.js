@@ -1,4 +1,4 @@
-import Test from './components/Test'
-import Test2 from './components/Test2'
+import { Icon } from './components/Icons'
+import Tile from './components/Tile'
 
-export { Test, Test2 }
+export { Icon, Tile }
