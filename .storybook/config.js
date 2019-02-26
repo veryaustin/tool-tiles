@@ -8,7 +8,7 @@ addDecorator(
      * name to display in the top left corner
      * @type {String}
      */
-    name: 'Tool Tags',
+    name: 'Tool Tiles',
     /**
      * URL for name in top left corner to link to
      * @type {String}

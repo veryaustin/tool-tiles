@@ -6,7 +6,7 @@ module.exports = {
   output: {
     filename: 'index.js',
     path: path.join(__dirname, 'dist'),
-    library: ['Tool Tags'],
+    library: ['Tool Tiles'],
     libraryTarget: 'umd',
     publicPath: '/dist/',
   },

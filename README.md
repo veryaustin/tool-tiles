@@ -1,4 +1,4 @@
-# tool-tags
+# tool-tiles
 
 The names and logos of products and companies shown in this package are the property of their respective owners and may also be trademarks.
 
