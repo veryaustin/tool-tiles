@@ -4,7 +4,9 @@ coverage/
 .gitignore
 .babelrc
 .prettierrc
+.storybook
 src/
 docs/
+utils/
 stories/
 webpack.prod.js
