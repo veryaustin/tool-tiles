@@ -1,13 +1,48 @@
 const path = require('path')
 
 module.exports = {
+  // context: path.resolve(__dirname, 'src'),
+
+  entry: './src/index.js',
   mode: 'production',
-  context: path.resolve(__dirname, 'src'),
   output: {
+    path: path.resolve(__dirname, './dist'),
     filename: 'index.js',
-    path: path.join(__dirname, 'dist'),
-    library: ['Tool Tiles'],
+    library: 'Tool Tiles',
     libraryTarget: 'umd',
     publicPath: '/dist/',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        exclude: /(node_modules|bower_components|dist)/,
+        loader: 'babel-loader',
+      },
+    ],
+  },
+  resolve: {
+    alias: {
+      react: path.resolve('../node_modules/react'),
+      'react-dom': path.resolve('../node_modules/react-dom'),
+      'styled-components': path.resolve('../node_modules/styled-components'),
+    },
+  },
+  externals: {
+    'styled-components': {
+      commonjs: 'styled-components',
+      commonjs2: 'styled-components',
+      amd: 'styled-components',
+    },
+    react: {
+      commonjs: 'react',
+      commonjs2: 'react',
+      amd: 'react',
+    },
+    'react-dom': {
+      commonjs: 'react-dom',
+      commonjs2: 'react-dom',
+      amd: 'react-dom',
+    },
   },
 }
