@@ -2,6 +2,8 @@
 
 > A collection of React components displaying development tools/technology logos & tiles
 
+[![npm version](https://img.shields.io/npm/v/@veryaustin/tool-tiles.svg?color=%23b6353b&style=popout-square)](https://www.npmjs.com/package/@veryaustin/tool-tiles)
+
 ## Installation:
 Install this package into your project:
 ```
