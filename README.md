@@ -11,7 +11,7 @@ npm i @veryaustin/tool-tiles
 ## Components:
 
 ### Grid Component
-#### Description
+#### Description:
 Container component that displays a grid of tiles.
 #### Props:
 |Prop|Type|Default|Description|
@@ -46,7 +46,7 @@ const Page = () => {
 
 
 ### Tile Component
-#### Description
+#### Description:
 Displays a square tile with logo.
 #### Props:
 |Prop|Type|Default|Description|
@@ -68,7 +68,7 @@ const Page = () => {
 
 
 ### Icon Component
-#### Description
+#### Description:
 Displays a SVG logo/icon.
 #### Props:
 |Prop|Type|Default|Description|
@@ -103,7 +103,7 @@ npm run storybook
 
 ![Included Icons](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/iconsProof.png)
 
-
+___
 The names and logos of products and companies shown in this package are the property of their respective owners and may also be trademarks.
 
 Licenses/Attribution:
