@@ -1,4 +1,108 @@
-# tool-tiles
+# Tool Tiles
+
+> A collection of React components displaying development tools/technology logos & tiles
+
+## Installation:
+Install this package into your project:
+```
+npm i @veryaustin/tool-tiles
+```
+---
+## Components:
+
+### Grid Component
+#### Description
+Container component that displays a grid of tiles.
+#### Props:
+|Prop|Type|Default|Description|
+|---|---|---|---|
+|tools|array|null|Array of strings of the logoNames|
+
+#### Example:
+```javascript
+import React from 'react';
+import { Grid } from '@veryaustin/tool-tiles';
+
+const Page = () => {
+  const sampleData = {
+    'html',
+    'css',
+    'chrome',
+    'email',
+    'bootstrap',
+    'github',
+    'adobeillustrator',
+    'node',
+    'react',
+    'slack',
+    'babel',
+  }
+  return (
+    <Grid tools={sampleData} />
+  )
+}
+```
+![Sample Grid](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/sampleGrid.png)
+
+
+### Tile Component
+#### Description
+Displays a square tile with logo.
+#### Props:
+|Prop|Type|Default|Description|
+|---|---|---|---|
+|icon|string|null|Defines the logo/tile color that will be displayed|
+
+#### Example:
+```javascript
+import React from 'react';
+import { Tile } from '@veryaustin/tool-tiles';
+
+const Page = () => {
+  return (
+    <Tile icon="html" />
+  )
+}
+```
+![Sample Tile](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/sampleTile.png)
+
+
+### Icon Component
+#### Description
+Displays a SVG logo/icon.
+#### Props:
+|Prop|Type|Default|Description|
+|---|---|---|---|
+|icon|string|null|Defines the SVG logo/icon to be displayed|
+|color|string|Color associated with the SVG logo|Defines the color of the SVG/icon|
+
+#### Example:
+```javascript
+import React from 'react';
+import { icon } from '@veryaustin/tool-tiles';
+
+const Page = () => {
+  return (
+    <Icon icon="html" color="red" />
+  )
+}
+```
+![Sample Icons](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/sampleIcon.png)
+
+
+## Project Development:
+Build the project
+```bash
+npm run build
+```
+
+View components in Storybook
+```bash
+npm run storybook
+```
+
+![Included Icons](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/iconsProof.png)
+
 
 The names and logos of products and companies shown in this package are the property of their respective owners and may also be trademarks.
 
