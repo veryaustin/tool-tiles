@@ -24,7 +24,7 @@ import React from 'react';
 import { Grid } from '@veryaustin/tool-tiles';
 
 const Page = () => {
-  const sampleData = {
+  const sampleData = [
     'html',
     'css',
     'chrome',
@@ -36,7 +36,7 @@ const Page = () => {
     'react',
     'slack',
     'babel',
-  }
+  ]
   return (
     <Grid tools={sampleData} />
   )
