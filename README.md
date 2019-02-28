@@ -9,6 +9,7 @@ Install this package into your project:
 ```
 npm i @veryaustin/tool-tiles
 ```
+
 ---
 ## Components:
 
@@ -92,6 +93,7 @@ const Page = () => {
 ![Sample Icons](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/sampleIcon.png)
 
 
+---
 ## Project Development:
 Build the project
 ```bash
