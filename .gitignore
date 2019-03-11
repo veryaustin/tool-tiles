@@ -1,3 +1,4 @@
 node_modules
 dist
 .vscode
+jest-test-results.json

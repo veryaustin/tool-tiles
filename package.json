@@ -4,8 +4,13 @@
   "description": "A collection of React components displaying development tools/technology logos & tiles",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --config webpack.prod.js",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "build": "webpack --mode production --config webpack.prod.js",
+    "develop": "webpack --mode development --config webpack.base.js",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --colors",
+    "test:generate-output": "jest --json --outputFile=.jest-test-results.json || true"
   },
   "repository": {
     "type": "git",
@@ -31,14 +36,20 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.3",
+    "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.3.1",
+    "@storybook/addon-jest": "^5.0.1",
     "@storybook/addon-knobs": "^4.1.13",
     "@storybook/addon-options": "^4.1.13",
     "@storybook/addon-viewport": "^4.1.13",
     "@storybook/react": "^4.1.13",
+    "babel-jest": "^24.4.0",
     "babel-plugin-styled-components": "^1.10.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.10.0",
+    "jest": "^24.4.0",
     "prop-types": "^15.7.2",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
