@@ -4,6 +4,9 @@ node_js:
 cache:
   directories:
     - node_modules
+branches:
+  - master
+  - development
 script:
   - npm run build
   - npm test
