@@ -9,7 +9,8 @@
     "storybook": "npm run test:generate-output && start-storybook -p 9001 -c .storybook",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage --colors",
+    "test:coverage": "jest --coverage --color",
+    "test:coverage:travis": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls",
     "test:generate-output": "jest --json --outputFile=.jest-test-results.json || true"
   },
   "repository": {
@@ -52,6 +53,7 @@
     "@storybook/react": "^4.1.13",
     "babel-jest": "^24.4.0",
     "babel-plugin-styled-components": "^1.10.0",
+    "coveralls": "^3.0.3",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
     "enzyme-to-json": "^3.3.5",

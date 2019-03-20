@@ -8,5 +8,7 @@ branches:
   - master
   - development
 script:
+  - npm test -- --coverage
   - npm run build
-  - npm test
+after_script:
+  - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN npm run coveralls
