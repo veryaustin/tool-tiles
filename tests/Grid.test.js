@@ -1,7 +1,7 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 import { Grid, Tile } from '../src/'
-import projectTools from '../__stubs__/projectTools'
+import projectTools from '../tests/__stubs__/projectTools'
 
 describe('Grid component', () => {
   let wrapper

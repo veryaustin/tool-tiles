@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { Grid } from '../src/'
 import { withKnobs } from '@storybook/addon-knobs'
-import projectTools from '../__stubs__/projectTools'
+import projectTools from '../tests/__stubs__/projectTools'
 
 const stories = storiesOf('Grid', module)
 
