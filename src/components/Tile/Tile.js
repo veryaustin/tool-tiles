@@ -8,7 +8,7 @@ const StyledTile = styled.div`
   justify-content: center;
   align-items: center;
   transition: transform 0.2s ease-in-out;
-  background-color: ${props => (props.color ? props.color : '#000000')};
+  background-color: ${props => props.color};
   &:hover {
     transform: scale(1.02);
     box-shadow: 0px 0px 10px #000000;
@@ -20,17 +20,21 @@ const StyledTile = styled.div`
   }
 `
 
-const Tile = ({ icon }) => {
-  const { color } = paths[icon]
+const Tile = ({ icon, color }) => {
+  const { logoColor } = paths[icon]
   return (
-    <StyledTile color={color}>
-      <Icon icon={icon} color="#ffffff" />
+    <StyledTile color={color ? color : logoColor}>
+      <Icon icon={icon} color={'#FFFFFF'} />
     </StyledTile>
   )
 }
 
 Tile.propTypes = {
   icon: PropTypes.string.isRequired,
+}
+
+Tile.defaultProps = {
+  icon: 'pdf',
 }
 
 StyledTile.propTypes = {

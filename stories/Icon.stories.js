@@ -6,12 +6,6 @@ import { Icon } from '../src/'
 import { paths } from '../src/components/Icons'
 
 const stories = storiesOf('Icons', module)
-
-stories.addDecorator(withKnobs)
-
-stories.add('default', () => (
-  <Icon
-    color={color('Color', '#111111')}
-    icon={select('Icon Name', getIconNames(paths), 'email')}
-  />
-))
+  .addDecorator(withKnobs)
+  .addParameters({ jest: ['Icon'] })
+  .add('default', () => <Icon color={color('Color', '#111111')} />)

@@ -9,9 +9,14 @@ export const StyledGrid = styled.div`
 `
 
 const Grid = ({ tools }) => {
-  const items = tools.map((tool, index) => {
-    return <Tile key={index} icon={tool} />
-  })
+  let items
+  {
+    !tools.length
+      ? (items = 'Please provide data via the "tools" prop')
+      : (items = tools.map((tool, index) => {
+          return <Tile key={index} icon={tool} />
+        }))
+  }
   return <StyledGrid>{items}</StyledGrid>
 }
 
@@ -19,4 +24,8 @@ export default Grid
 
 Grid.propTypes = {
   tools: PropTypes.array.isRequired,
+}
+
+Grid.defaultProps = {
+  tools: [],
 }

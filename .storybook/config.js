@@ -1,5 +1,7 @@
 import { addDecorator, configure } from '@storybook/react'
 import { withOptions } from '@storybook/addon-options'
+import { withTests } from '@storybook/addon-jest'
+import results from '../.jest-test-results.json'
 
 // Story Options defaults:
 addDecorator(
@@ -77,6 +79,13 @@ addDecorator(
      * @type {Boolean}
      */
     enableShortcuts: true, // true by default
+  })
+)
+
+// Tests
+addDecorator(
+  withTests({
+    results,
   })
 )
 
