@@ -2,6 +2,7 @@
 
 > A collection of React components displaying development tools/technology logos & tiles
 
+[![Build Status](https://travis-ci.org/veryaustin/tool-tiles.svg?branch=master)](https://travis-ci.org/veryaustin/tool-tiles)
 [![npm version](https://img.shields.io/npm/v/@veryaustin/tool-tiles.svg?color=%23b6353b&style=popout-square)](https://www.npmjs.com/package/@veryaustin/tool-tiles)
 
 ## Installation:
