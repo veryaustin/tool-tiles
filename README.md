@@ -54,7 +54,8 @@ Displays a square tile with logo.
 #### Props:
 |Prop|Type|Default|Description|
 |---|---|---|---|
-|icon|string|null|Defines the logo/tile color that will be displayed|
+|icon|string|'pdf'|Defines the logo/tile color that will be displayed|
+|color|string|logoColor of the icon|Defines the tile background color|
 
 #### Example:
 ```javascript
@@ -76,8 +77,8 @@ Displays a SVG logo/icon.
 #### Props:
 |Prop|Type|Default|Description|
 |---|---|---|---|
-|icon|string|null|Defines the SVG logo/icon to be displayed|
-|color|string|Color associated with the SVG logo|Defines the color of the SVG/icon|
+|icon|string|'pdf'|Defines the SVG logo/icon to be displayed|
+|color|string|logoColor of the icon|Defines the color of the SVG/icon|
 
 #### Example:
 ```javascript
@@ -95,14 +96,36 @@ const Page = () => {
 
 ---
 ## Project Development:
-Build the project
+
+#### Build the Project:
 ```bash
 npm run build
 ```
 
-View components in Storybook
+#### View components in Storybook:
 ```bash
 npm run storybook
+```
+
+
+#### Run Test Suite:
+```
+npm run test 
+```
+
+#### Run Test Suite in Watch Mode:
+```
+npm run test:watch 
+```
+
+#### Generate Test Suite Code Coverage:
+```
+npm run test:coverage 
+```
+
+#### Generate Test Suite Output for Storybook:
+```
+npm run test:generate-output
 ```
 
 ![Included Icons](https://raw.githubusercontent.com/veryaustin/tool-tiles/master/docs/img/iconsProof.png)

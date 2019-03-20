@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid component with tools props should exist 1`] = `
+<Grid__StyledGrid>
+  <Tile
+    icon="html"
+    key="0"
+  />
+  <Tile
+    icon="css"
+    key="1"
+  />
+  <Tile
+    icon="chrome"
+    key="2"
+  />
+  <Tile
+    icon="email"
+    key="3"
+  />
+  <Tile
+    icon="bootstrap"
+    key="4"
+  />
+  <Tile
+    icon="github"
+    key="5"
+  />
+  <Tile
+    icon="adobeillustrator"
+    key="6"
+  />
+  <Tile
+    icon="node"
+    key="7"
+  />
+  <Tile
+    icon="react"
+    key="8"
+  />
+  <Tile
+    icon="slack"
+    key="9"
+  />
+  <Tile
+    icon="babel"
+    key="10"
+  />
+</Grid__StyledGrid>
+`;

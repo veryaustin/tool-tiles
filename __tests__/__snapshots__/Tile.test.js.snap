@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile component with color prop should exist 1`] = `
+.c1 {
+  width: 50%;
+  height: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  background-color: #1859A6;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.c0::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+}
+
+<Tile__StyledTile
+  color="#1859A6"
+>
+  <div
+    className="c0"
+    color="#1859A6"
+  >
+    <Icon__StyledSvg
+      role="img"
+      viewBox="0 0 26 32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <svg
+        className="c1"
+        role="img"
+        viewBox="0 0 26 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="pdf"
+        >
+          pdf Icon
+        </title>
+        <path
+          d="M19.778.366l5.813 5.847h-5.813V.366zm.605 16.29c.343 0 .622.28.622.625v8.09a.623.623 0 0 1-.622.626H.622A.623.623 0 0 1 0 25.37v-8.09c0-.346.278-.625.622-.625h19.761zm-1.227-9.191h6.798v23.91a.624.624 0 0 1-.621.625H2.105a.624.624 0 0 1-.621-.625v-4.178h20.155c.343 0 .621-.28.621-.625V16.055a.623.623 0 0 0-.621-.626H1.484V.625c0-.346.278-.625.621-.625h16.43v6.84c0 .344.278.625.621.625zm-4.129 13.443h-1.094v-.65h1.194c.146 0 .255-.03.326-.086.07-.056.107-.147.107-.27 0-.127-.035-.219-.104-.278-.07-.059-.18-.087-.329-.087h-1.671c-.136 0-.24.036-.313.11-.073.074-.11.178-.11.314v2.677c0 .137.042.247.125.33a.444.444 0 0 0 .328.126.441.441 0 0 0 .326-.123.45.45 0 0 0 .121-.333v-1.01h1.094c.147 0 .255-.029.326-.085.071-.057.108-.147.108-.27 0-.124-.037-.215-.108-.275-.071-.06-.18-.09-.326-.09zm-2.762 1.338c.147-.266.22-.582.22-.949 0-.363-.073-.676-.222-.94a1.503 1.503 0 0 0-.644-.607c-.28-.142-.614-.213-1.003-.213H9.611c-.135 0-.239.036-.313.11-.073.074-.109.178-.109.314v2.677c0 .137.036.242.109.316.074.073.178.11.313.11h1.005c.391 0 .727-.07 1.008-.21.28-.14.493-.344.641-.608zm-3.844-.758c.217-.2.326-.475.326-.826 0-.353-.108-.63-.323-.827-.216-.2-.518-.298-.905-.298H6.246c-.137 0-.241.036-.314.11a.429.429 0 0 0-.11.314v2.677c0 .14.041.252.123.333.08.082.19.123.33.123a.46.46 0 0 0 .338-.123.443.443 0 0 0 .125-.333v-.85h.78c.385 0 .686-.1.903-.3zm2.131-1.21c.341 0 .597.083.768.25.17.167.256.423.256.77 0 .346-.085.605-.256.772-.171.17-.427.254-.768.254h-.448v-2.047h.448zm-3.159-.046c.332 0 .498.145.498.435 0 .147-.04.256-.122.326-.081.07-.207.105-.376.105h-.655v-.866h.655z"
+          fill="#FFFFFF"
+        />
+      </svg>
+    </Icon__StyledSvg>
+  </div>
+</Tile__StyledTile>
+`;
+
+exports[`Tile component with icon & color props should exist 1`] = `
+.c1 {
+  width: 50%;
+  height: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  background-color: #EAFF00;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.c0::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+}
+
+<Tile__StyledTile
+  color="#EAFF00"
+>
+  <div
+    className="c0"
+    color="#EAFF00"
+  >
+    <Icon__StyledSvg
+      role="img"
+      viewBox="0 0 32 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <svg
+        className="c1"
+        role="img"
+        viewBox="0 0 32 20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="markdown"
+        >
+          markdown Icon
+        </title>
+        <path
+          d="M29.742 19.734H2.295C1.052 19.734 0 18.68 0 17.435V2.3C0 1.054 1.052 0 2.295 0h27.351c1.243 0 2.295 1.054 2.295 2.3v15.135c0 1.245-.956 2.3-2.2 2.3zM2.295 1.533c-.382 0-.765.383-.765.766v15.136c0 .48.383.766.765.766h27.351a.755.755 0 0 0 .765-.766V2.3a.755.755 0 0 0-.765-.766H2.296zM4.59 15.136V4.598h3.06l3.06 3.832 3.061-3.832h3.06v10.538h-3.06V9.101l-3.06 3.832L7.65 9.1v6.035H4.59zm19.223 0l-4.59-5.077h3.06v-5.46h3.06v5.364h3.06l-4.59 5.173z"
+          fill="#FFFFFF"
+        />
+      </svg>
+    </Icon__StyledSvg>
+  </div>
+</Tile__StyledTile>
+`;
+
+exports[`Tile component with icon prop should exist 1`] = `
+.c1 {
+  width: 50%;
+  height: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  background-color: #D0021B;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.c0::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+}
+
+<Tile__StyledTile
+  color="#D0021B"
+>
+  <div
+    className="c0"
+    color="#D0021B"
+  >
+    <Icon__StyledSvg
+      role="img"
+      viewBox="0 0 32 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <svg
+        className="c1"
+        role="img"
+        viewBox="0 0 32 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="email"
+        >
+          email Icon
+        </title>
+        <path
+          d="M.235 20.26V3.527c.024-.066.045-.133.062-.2C.62 1.472 2.232.086 4.113.083c7.902-.006 15.804-.006 23.705 0 1.791 0 3.343 1.26 3.765 3.003.035.148.078.292.114.44V20.26a.69.69 0 0 0-.054.138c-.292 1.634-1.427 2.89-3.038 3.194-.754.143-1.547.107-2.322.108-7.358.007-14.717.007-22.076 0-1.81 0-3.328-1.145-3.82-2.855-.057-.19-.102-.388-.152-.585zm10.705-8.654c-.491.486-.957.945-1.413 1.41L4.52 18.015c-.302.3-.443.641-.315 1.056.228.752 1.106.932 1.696.347 2.081-2.076 4.16-4.156 6.234-6.243.077-.09.146-.188.208-.288.172.158.285.257.398.358l2.502 2.278c.475.43.972.426 1.45-.007.866-.784 1.73-1.57 2.596-2.356.079-.074.165-.146.264-.236l2.312 2.321 4.169 4.174c.282.284.606.417 1.001.312.764-.207.983-1.098.405-1.682a919.368 919.368 0 0 0-4.192-4.198c-.744-.745-1.494-1.489-2.252-2.248.1-.094.18-.17.263-.246l3.044-2.77 3.114-2.835c.3-.272.42-.609.32-.997a.934.934 0 0 0-.7-.71c-.394-.104-.712.04-1.007.31-3.269 2.979-6.541 5.958-9.818 8.934-.08.074-.164.143-.251.22l-4.683-4.26a6845.492 6845.492 0 0 1-5.411-4.916c-.285-.26-.603-.384-.984-.277a.936.936 0 0 0-.694.708c-.095.394.03.726.33.996 1.29 1.172 2.578 2.343 3.866 3.517l2.555 2.329z"
+          fill="#FFFFFF"
+        />
+      </svg>
+    </Icon__StyledSvg>
+  </div>
+</Tile__StyledTile>
+`;
+
+exports[`Tile component without props should exist 1`] = `
+.c1 {
+  width: 50%;
+  height: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  -webkit-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  background-color: #FF0000;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  box-shadow: 0px 0px 10px #000000;
+}
+
+.c0::before {
+  content: '';
+  width: 0;
+  padding-bottom: 100%;
+}
+
+<Tile__StyledTile
+  color="#FF0000"
+>
+  <div
+    className="c0"
+    color="#FF0000"
+  >
+    <Icon__StyledSvg
+      role="img"
+      viewBox="0 0 26 32"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <svg
+        className="c1"
+        role="img"
+        viewBox="0 0 26 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <title
+          id="pdf"
+        >
+          pdf Icon
+        </title>
+        <path
+          d="M19.778.366l5.813 5.847h-5.813V.366zm.605 16.29c.343 0 .622.28.622.625v8.09a.623.623 0 0 1-.622.626H.622A.623.623 0 0 1 0 25.37v-8.09c0-.346.278-.625.622-.625h19.761zm-1.227-9.191h6.798v23.91a.624.624 0 0 1-.621.625H2.105a.624.624 0 0 1-.621-.625v-4.178h20.155c.343 0 .621-.28.621-.625V16.055a.623.623 0 0 0-.621-.626H1.484V.625c0-.346.278-.625.621-.625h16.43v6.84c0 .344.278.625.621.625zm-4.129 13.443h-1.094v-.65h1.194c.146 0 .255-.03.326-.086.07-.056.107-.147.107-.27 0-.127-.035-.219-.104-.278-.07-.059-.18-.087-.329-.087h-1.671c-.136 0-.24.036-.313.11-.073.074-.11.178-.11.314v2.677c0 .137.042.247.125.33a.444.444 0 0 0 .328.126.441.441 0 0 0 .326-.123.45.45 0 0 0 .121-.333v-1.01h1.094c.147 0 .255-.029.326-.085.071-.057.108-.147.108-.27 0-.124-.037-.215-.108-.275-.071-.06-.18-.09-.326-.09zm-2.762 1.338c.147-.266.22-.582.22-.949 0-.363-.073-.676-.222-.94a1.503 1.503 0 0 0-.644-.607c-.28-.142-.614-.213-1.003-.213H9.611c-.135 0-.239.036-.313.11-.073.074-.109.178-.109.314v2.677c0 .137.036.242.109.316.074.073.178.11.313.11h1.005c.391 0 .727-.07 1.008-.21.28-.14.493-.344.641-.608zm-3.844-.758c.217-.2.326-.475.326-.826 0-.353-.108-.63-.323-.827-.216-.2-.518-.298-.905-.298H6.246c-.137 0-.241.036-.314.11a.429.429 0 0 0-.11.314v2.677c0 .14.041.252.123.333.08.082.19.123.33.123a.46.46 0 0 0 .338-.123.443.443 0 0 0 .125-.333v-.85h.78c.385 0 .686-.1.903-.3zm2.131-1.21c.341 0 .597.083.768.25.17.167.256.423.256.77 0 .346-.085.605-.256.772-.171.17-.427.254-.768.254h-.448v-2.047h.448zm-3.159-.046c.332 0 .498.145.498.435 0 .147-.04.256-.122.326-.081.07-.207.105-.376.105h-.655v-.866h.655z"
+          fill="#FFFFFF"
+        />
+      </svg>
+    </Icon__StyledSvg>
+  </div>
+</Tile__StyledTile>
+`;

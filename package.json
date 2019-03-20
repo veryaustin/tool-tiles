@@ -4,9 +4,9 @@
   "description": "A collection of React components displaying development tools/technology logos & tiles",
   "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --mode production --config webpack.prod.js",
+    "build": "webpack --mode production --config webpack.base.js",
     "develop": "webpack --mode development --config webpack.base.js",
-    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook": "npm run test:generate-output && start-storybook -p 9001 -c .storybook",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --colors",

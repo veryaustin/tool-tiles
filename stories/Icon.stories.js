@@ -8,4 +8,9 @@ import { paths } from '../src/components/Icons'
 const stories = storiesOf('Icons', module)
   .addDecorator(withKnobs)
   .addParameters({ jest: ['Icon'] })
-  .add('default', () => <Icon color={color('Color', '#111111')} />)
+  .add('default', () => (
+    <Icon
+      icon={select('Icon Name', getIconNames(paths), 'pdf')}
+      color={color('Color')}
+    />
+  ))
